@@ -231,64 +231,13 @@ hr.star-light:after {
     font-size: 1.75em;
 }
 
-/*
-  CONFERENCES
-*/
-#conferences article {
-    display: inline-block;
-    vertical-align: middle;
-    height: 285px;
-    width: 25%;
-    padding: 0px;
-    background-color: #EEE;
-    text-align: center;
-    overflow: hidden;
+
+
+.fb-like{
+    width:350px;
+    display:block;
+    margin-top:20px;
 }
-
-#conferences article .wrap {
-    margin: 0px auto;
-    min-width: 100px;
-    max-width: 350px;
-    height: 285px;
-    background: url("../img/smalls.jpg") no-repeat scroll center top transparent;
-}
-
-#conferences article#narwhals h2 {
-    width: auto;
-    left: 50%;
-    right: inherit;
-    margin: 100px 0px 0px -94px;
-}
-
-#conferences article#bulkdelete .wrap {
-    background-position: center -285px;
-}
-
-#conferences article#kidcam .wrap {
-    background-position: center -570px;
-}
-
-#conferences article#offof .wrap {
-    background-position: center -855px;
-}
-
-#conferences .btn {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 55px;
-    padding: 18px 21px 21px;
-    color: #FFF;
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.14);
-    text-transform: uppercase;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-
-
 
 
 
