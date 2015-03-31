@@ -10,6 +10,23 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/vendor/modernizr.js"></script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '762735047173247',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
   </head>
   <body>
     <div class="wide teal" id="forons">
@@ -20,6 +37,12 @@
               <h1>MASSIMO</h1>
               <hr class="star-light">
               <span class="skills">Best Ph.D in the world 2015</span>
+              <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
             </div>
         </div>
       </div>
@@ -176,7 +199,7 @@
             <h2>Prizes</h2>
             <hr class="star-light">
           </div>
-          <p>Computer science capitain ad honorem</p>
+          <p>Computer science captain ad honorem</p>
           <p>Mr. Danza del ventre 2013</p>
           <p>Cinturone</p>
           <p>Grannies and MILF bomber</p>
